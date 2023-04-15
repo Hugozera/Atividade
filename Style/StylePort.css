@@ -17,6 +17,7 @@ header {
 nav ul {
   display: flex;
   list-style-type: none;
+  
 }
 
 nav li {
@@ -53,6 +54,13 @@ section h2 {
   margin-bottom: 20px;
 }
 
+footer, ul{
+  list-style: none;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
@@ -62,6 +70,7 @@ section h2 {
   nav ul {
     flex-direction: column;
     margin-top: 20px;
+    list-style-type: none;
   }
 
   nav li {

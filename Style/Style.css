@@ -17,7 +17,6 @@ header {
 img{
  padding-left: 200px;
  padding-top: 50px;
- padding-bottom 30px; 
 }
 nav {
   display: flex;
@@ -43,7 +42,8 @@ nav a {
   text-transform: uppercase;
 }
 
-footer {
+footer, ul {
+  list-style-type: none;
   background-color: #333;
   color: #fff;
   text-align: center;
